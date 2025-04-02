@@ -6,11 +6,10 @@ Setup
 You’ll need:
 - A camera to capture the projectile’s motion.
 - OpenCV for c++ installed.
-
+- A simple background to help with object detection, or you can use a specific color or marker on the ball for tracking.
+  
 Steps
---
-
-1. A simple background to help with object detection, or you can use a specific color or marker on the ball for tracking.
+-- 
 
 2. Capture Video
 First, capture the video of the projectile’s motion. Ideally, you should have a video of the ball being thrown or launched at a consistent angle with clear lighting conditions.

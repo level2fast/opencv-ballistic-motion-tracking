@@ -11,16 +11,16 @@ You’ll need:
 Steps
 -- 
 
-2. Capture Video
+1. Capture Video
 First, capture the video of the projectile’s motion. Ideally, you should have a video of the ball being thrown or launched at a consistent angle with clear lighting conditions.
 
-3. Ball Detection
+2. Ball Detection
 You can use color-based tracking if the projectile has a unique color or use shape-based detection if it’s spherical
 
-4. Calculate Trajectory
+3. Calculate Trajectory
 Using the position data from each frame, you can calculate the ballistic trajectory. In the ideal case, the projectile's motion follows a parabolic path, and you can use basic kinematic equations.
 
-5. Calculate Speed and Acceleration
+4. Calculate Speed and Acceleration
 To calculate the speed and acceleration of the projectile, you can take the first and second derivatives of position (displacement):
 
 Speed: The magnitude of the velocity vector.
